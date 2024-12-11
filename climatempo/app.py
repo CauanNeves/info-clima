@@ -79,16 +79,13 @@ def main():
 
     Segue abaixo a previsão do tempo para os próximos dias:
     '''
-        corpo_2 = ''
-
-        for i in range(3):
-            add= f'''
-        
+        corpo_2 = ''.join([
+            f'''
             {data[i]['date']}
-    Condição: {data[i]['condition']}
-    Temperatura: Mínima de {data[i]['min']} e Máxima de {data[i]['max']}
-        '''
-            corpo_2 = corpo_2 + add
+            Condição: {data[i]['condition']}
+            Temperatura: Mínima de {data[i]['min']} e Máxima de {data[i]['max']}
+            ''' for i in range(3)
+        ])
 
         corpo_final = corpo_1 + corpo_2
         
