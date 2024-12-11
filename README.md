@@ -122,7 +122,7 @@ Temperatura: Mínima de 21° e Máxima de 25°
 ---
 
 ## 🔧 **Contribuições**
-Contribuições são bem-vindas! Se você quiser sugerir melhorias, abrir issues ou fazer pull requests, fique à vontade.
+Contribuições são bem-vindas! Se você quiser sugerir melhorias, abrir issues ou fazer pull requests, fique à vontade. :)
 
 ---
 
